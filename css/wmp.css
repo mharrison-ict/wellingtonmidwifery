@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+purple #7f3f97 or rgb(127, 63, 151)
+blue #00ADE or rgb(0,173,238)
+*/
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 500;
+  margin: 0;
+  color: #7f3f97; /* purple */
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header p  a {
+	color: #00ADEE; /* blue */
+}
+header p  a.hover a.visited {
+	color: #7F3F97; /* purple */
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../images/wmp-banner-1297x757.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron-meet {
+	background-image: url('../images/hand-trust-birth-baby-banner.jpg');
+}
+.jumbotron-about {
+	background-image: url('../images/sleeping-baby-banner.jpg');
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #00ADEE;
+  background-color: #7f3f97;
+}
+
+.btn-secondary {
+  background-color: #7f3f97;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.btn-secondary:hover {
+  background-color: #00ADEE;
+  color: #ffffff;
+}
+
+footer {
+	
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.dropshadow {
+	box-shadow: 8px 8px 5px #999999;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
